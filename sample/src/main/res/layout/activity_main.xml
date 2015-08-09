@@ -3,25 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <com.bigfat.library.DotsView
-        android:id="@+id/dv_vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        app:dv_colorSelected="#FF0000"
-        app:dv_colorUnselected="#00FF00"
-        app:dv_count="3"
-        app:dv_current="0"
-        app:dv_dotRadius="6dp"
-        app:dv_dotSpace="24dp"
-        app:dv_orientation="vertical" />
-
-    <com.bigfat.library.DotsView
         android:id="@+id/dv_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.bigfat.library.DotsView
+            android:id="@+id/dv_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:dv_colorSelected="#FF0000"
+            app:dv_colorUnselected="#00FF00"
+            app:dv_count="3"
+            app:dv_current="1"
+            app:dv_dotRadius="6dp"
+            app:dv_dotSpace="24dp"
+            app:dv_orientation="vertical" />
+    </LinearLayout>
 </LinearLayout>
