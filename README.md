@@ -1,5 +1,6 @@
 # DotsView
-<img src="https://github.com/yueban/DotsView/raw/master/DotsView.gif" width="300" alt="Screenshot"/>
+Using it with ViewPager,ScrollView,etc......
+<img src="https://raw.githubusercontent.com/yueban/DotsView/master/DotsVIew.gif" width="300" alt="Screenshot"/>
 
 ## Usage
 Define in xml:
