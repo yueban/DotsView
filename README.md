@@ -2,6 +2,13 @@
 Using it with ViewPager,ScrollView,etc......   
 
 <img src="https://raw.githubusercontent.com/yueban/DotsView/master/DotsView.gif" width="300" alt="Screenshot"/>
+## Gradle
+DotsView is avaiable in [JCenter](https://bintray.com/bintray/jcenter?filterByPkgName=DotsView)
+
+**Gradle dependency:**
+```gradle
+compile 'com.bigfat.dotsview:library:1.0.0'
+```
 
 ## Usage
 Define in xml:

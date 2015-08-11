@@ -29,7 +29,7 @@ dependencies {
 
 def siteUrl = 'https://github.com/yueban/DotsView'      // 项目的主页
 def gitUrl = 'https://github.com/yueban/DotsView.git'   // Git仓库的url
-group = "com.bigfat.library"
+group = "com.bigfat.dotsview"
 
 install {
     repositories.mavenInstaller {
